@@ -4,8 +4,11 @@ This project aims to develop a personalized learning coach application using a f
 
 ## Key Features and Tasks:
 
--1. Dataset Creation: Develop a diverse dataset with educational content and feedback for training the model.
--2. Model Refinement: Enhance the model's educational interaction capabilities.
--3. Model Comparison: Evaluate improvements by comparing the refined model to the original.
--4. Implementation: Use Langchain to deploy the refined model in a user-friendly learning coach application(Chatbot).
+-1: Dataset Creation: Develop a diverse dataset with educational content and feedback for training the model.
+
+-2: Model Refinement: Enhance the model's educational interaction capabilities.
+
+-3: Model Comparison: Evaluate improvements by comparing the refined model to the original.
+
+-4: Implementation: Use Langchain to deploy the refined model in a user-friendly learning coach application(Chatbot).
 
