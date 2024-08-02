@@ -26,6 +26,8 @@ Due to the time constraints, we managed to develop an application only with supe
 
 **src/modules/Q&A Generation.py**: This script takes a PDF file, generates question and answers from the pdf using advanced NLP techniques. It processes the text from the PDF, creates questions, refines this questions and then finds the best answers from the text. The final question-answer pairs are saved to a CSV file.
 
+*Chance of error*: 
+
 **src/Converting-dataset.ipynb** 
 
 
