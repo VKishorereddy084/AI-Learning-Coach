@@ -20,7 +20,7 @@ Due to the time constraints, we managed to develop an application only with supe
 
 #### Files
 
-**Dataset Folder**: This folder contains the datasets and related documents necessary for training and refining our AI Learning Coach application. It is crucial for developing the model's ability to provide personalized educational experiences.
+ - **Dataset Folder**: This folder contains the datasets and related documents necessary for training and refining our AI Learning Coach application. It is crucial for developing the model's ability to provide personalized educational experiences.
 
 **Dataset/Pythonlearn**: This document serves as the primary source for creating our educational dataset. It contains comprehensive material on Python programming, which we use to extract questions, answers, as dataset. This structured dataset is essential for ensuring that the model can accurately understand and respond to educational queries related to Python programming.
 
