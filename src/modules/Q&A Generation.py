@@ -13,7 +13,7 @@ import pandas as pd
 
 # Define prompt templates
 prompt_template_questions = """
-You are an expert in creating practise questions based on study material.
+You are an expert in creating  questions based on study material.
 Your goal is to prepare a set of questions. You do this by asking questions about the text below:
 
 ------------
@@ -29,7 +29,7 @@ PROMPT_QUESTIONS = PromptTemplate(template=prompt_template_questions, input_vari
 
 refine_template_questions = """
 You are an expert in creating questions based on study material.
-We have received some practice questions to a certain extent: {existing_answer}.
+We have received some  questions to a certain extent: {existing_answer}.
 We have the option to refine the existing questions or add new ones.
 (only if necessary) with some more context below.
 ------------
