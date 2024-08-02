@@ -24,7 +24,9 @@ Due to the time constraints, we managed to develop an application only with supe
 
 **Dataset/Pythonlearn**: This document serves as the primary source for creating our educational dataset. It contains comprehensive material on Python programming, which we use to extract questions, answers, as dataset. This structured dataset is essential for ensuring that the model can accurately understand and respond to educational queries related to Python programming.
 
-**src/modules/Q&A Generation.py**: 
+**src/modules/Q&A Generation.py**: This script takes a PDF file, generates question and answers from the pdf using advanced NLP techniques. It processes the text from the PDF, creates questions, refines this questions and then finds the best answers from the text. The final question-answer pairs are saved to a CSV file.
+
+**src/Converting-dataset.ipynb** 
 
 
 
