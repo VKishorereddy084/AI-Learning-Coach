@@ -24,7 +24,7 @@ Due to the time constraints, we managed to develop an application only with supe
 
 **Dataset/Pythonlearn**: This document serves as the primary source for creating our educational dataset. It contains comprehensive material on Python programming, which we use to extract questions, answers, as dataset. This structured dataset is essential for ensuring that the model can accurately understand and respond to educational queries related to Python programming.
 
-**Dataset/dataset.csv**:
+**src/modules/Q&A Generation.py**: 
 
 
 
