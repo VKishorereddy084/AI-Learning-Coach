@@ -49,13 +49,15 @@ It is recommended to provide a 5-6 page PDF as input at a time. Processing a lar
 
 - ***src/fine-tuning_dataset.ipynb***: This notebook explains the step-by-step  methods for enhancing a pre-trained LLM with our curated train dataset, aiming to improve its relevance and accuracy in educational contexts and also the evaluation of the fine-tuned model using different metrics with test dataset.
 
-- ***src/RAG.ipynb***: In this notebook, we used `RAG´technique to evaluate the performance of the base model using `test´dataset. We used the same metrics that we used for fine-tuning.
+- ***src/RAG.ipynb***: In this notebook, we used `RAG´ technique to evaluate the performance of the base model using `test´ dataset. We used the same metrics that we used for fine-tuning.
 
 - ***src/chatbot.ipynb***: This notebook demonstrates setting up a chatbot that utilizes the fine-tuned model using `Langchain´ to interact and assist users with python programming.
 
 #### Requirements and models that used.
 
-**Q&A Generation.py**: This script requires the download of zephyr model `TheBloke/zephyr-7B-alpha-GGUF´ locally from HuggingFace hub.
+- **Q&A Generation.py**: Make sure to install all the libraries required for the code to function. You can typically do this using pip, Python’s package installer.  Next, download the Zephyr model (specifically, TheBloke/zephyr-7B-alpha-GGUF) from Hugging Face. This model is essential for generating questions and answer from the input data.
+
+- **Converting_dataset.ipynb**: This scripts takes csv file as an input. 
 
 
 
