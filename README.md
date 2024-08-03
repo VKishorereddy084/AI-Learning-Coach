@@ -80,7 +80,7 @@ It is recommended to provide a 5-6 page PDF as input at a time. Processing a lar
 
 Results of fine-tuned model and base model.
 
-<img src="./res/Exact Match and F1 score.png"/>
+<img src="./res/Fine-tuned Exact Match and F1 score.png"/>
 
-<img src="./res/Exact Match.png"/>
+<img src="./res/RAG Exact Match and F1 score.png"/>
 
