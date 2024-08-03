@@ -10,19 +10,19 @@ Due to the time constraints, we managed to develop an application only with supe
 
 ### Key Features and Tasks
 
-1: Dataset Creation: Develop a diverse dataset with educational content and feedback for training the model.
+- 1: Dataset Creation: Develop a diverse dataset with educational content and feedback for training the model.
 
-2: Model Refinement: Enhance the model's educational interaction capabilities.
+- 2: Model Refinement: Enhance the model's educational interaction capabilities.
 
-3: Model Comparison: Evaluate improvements by comparing the refined model to the original.
+- 3: Model Comparison: Evaluate improvements by comparing the refined model to the original.
 
-4: Implementation: Use Langchain to deploy the refined model in a user-friendly learning coach application(Chatbot).
+- 4: Implementation: Use Langchain to deploy the refined model in a user-friendly learning coach application(Chatbot).
 
 #### Files
 
  - **Dataset Folder**: This folder contains the datasets and related documents necessary for training and refining our LLM. 
 
- - Dataset/Pythonlearn: This document serves as the primary source for creating our educational dataset. It contains comprehensive material on Python programming, which we use to extract questions, answers, as dataset. This structured dataset is essential for ensuring that the model can accurately understand and respond to educational queries related to Python programming.
+ - ***Dataset/Pythonlearn***: This document serves as the primary source for creating our educational dataset. It contains comprehensive material on Python programming, which we use to extract questions, answers, as dataset. This structured dataset is essential for ensuring that the model can accurately understand and respond to educational queries related to Python programming.
 
  - **src/modules/Preprocessing.py**: A python script that preprocess the data by removing starting pages(Introduction and Index pages) of the pdf which we don't need and save the output of the preprocessed pdf.
 
