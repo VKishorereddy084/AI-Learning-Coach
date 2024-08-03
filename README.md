@@ -55,7 +55,7 @@ It is recommended to provide a 5-6 page PDF as input at a time. Processing a lar
 
 #### Requirements and models that used.
 
-- **Q&A Generation.py**: Make sure to install all the libraries required for the code to function. You can typically do this using pip, Python’s package installer.  Next, download the Zephyr model (specifically, TheBloke/zephyr-7B-alpha-GGUF) from Hugging Face. This model is essential for generating questions and answer from the input data.
+- **Q&A Generation.py**: Make sure to install all the libraries required for the code to function. You can typically do this using pip, Python’s package installer.  Next, download the Zephyr model (`TheBloke/zephyr-7B-alpha-GGUF`) from Hugging Face. This model is essential for generating questions and answer from the input data.
 
 - **Converting_dataset.ipynb**: This scripts takes csv file as an input. 
 
