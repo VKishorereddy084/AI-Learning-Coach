@@ -41,12 +41,12 @@ It is recommended to provide a 5-6 page PDF as input at a time. Processing a lar
 
 ****Links****
 
+  ```
 
-{
   href="https://huggingface.co/datasets/Kishorereddy123/accurate_QA/"
   
   href= "https://huggingface.co/datasets/Kishorereddy123/transformed_QA"
-}
+
 
 - ***src/fine-tuning_dataset.ipynb***: This notebook explains the step-by-step  methods for enhancing a pre-trained LLM with our curated train dataset, aiming to improve its relevance and accuracy in educational contexts and also the evaluation of the fine-tuned model using different metrics with test dataset.
 
