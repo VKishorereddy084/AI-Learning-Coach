@@ -35,7 +35,19 @@ When you run the code, you will be asked to give the path of the PDF file. Pleas
 *Chance of error*:
 It is recommended to provide a 5-6 page PDF as input at a time. Processing a larger number of pages simultaneously can be very time-consuming and may heavily depend on the system's RAM capacity. Moreover, providing more pages can increase the risk of crashing the code. 
 
-  **src/Converting-dataset.ipynb** 
+  **src/notebooks Folder**: This folder contains a series of Jupyter notebooks that are required for the developement of our AI learning coach application. Each notebook is designed for a specific part of the project workflow:
+
+  - ***src/Converting_dataset.ipynb***: This script does two things. Pushing the raw dataset(Q&A pairs) by splitting it into train and test for evaluation to huggingface hub to specific repository for easy access and then converting it into a structured format that is suitable for  training machine learning models. Since we opted Llama2 for fine-tuning, the dataset is converted into Llama2 prompt template.
+
+****Links****
+    ```
+{
+  href="https://huggingface.co/datasets/Kishorereddy123/accurate_QA/"
+  href= "https://huggingface.co/datasets/Kishorereddy123/transformed_QA"
+}
+```
+
+  - ***src/fine-tuning_dataset.ipynb***: This notebook explains the step-by-step  methods for enhancing a pre-trained LLM with our curated train dataset, aiming to improve its relevance and accuracy in educational contexts and also the evaluation of the fine-tuned model using different metrics with test dataset.
 
 
 
