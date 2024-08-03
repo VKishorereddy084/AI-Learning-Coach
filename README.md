@@ -20,9 +20,9 @@ Due to the time constraints, we managed to develop an application only with supe
 
 #### Files
 
-  **Dataset Folder**: This folder contains the datasets and related documents necessary for training and refining our LLM. 
+  **dataset Folder**: This folder contains the datasets and related documents necessary for training and refining our LLM. 
 
-  - ***Dataset/Pythonlearn***: This document serves as the primary source for creating our educational dataset. It contains comprehensive material on Python programming, which we use to extract questions, answers, as dataset. This structured dataset is essential for ensuring that the model can accurately understand and respond to educational queries related to Python programming.
+  - ***dataset/Pythonlearn***: This document serves as the primary source for creating our educational dataset. It contains comprehensive material on Python programming, which we use to extract questions, answers, as dataset. This structured dataset is essential for ensuring that the model can accurately understand and respond to educational queries related to Python programming.
 
    **src/modules Folder**: This folder contains two python scripts that can preprocess the pdf data and generate Q&A pairs from the pdf data.
     
