@@ -66,9 +66,9 @@ It is recommended to provide a 5-6 page PDF as input at a time. Processing a lar
 
 - **Fine-tuning_dataset.ipynb**: We have used Llama2 model for fine-tuning. To utilize the Llama2 model (meta-llama/Llama-2-7b-chat-hf), you must request access from Meta AI to ensure necessary permissions to use the model for your specific purposes.
   After fine-tuning the model, to store the new model in huggingface, we need merge the LoRA weights with base model. This process involves following steps because there is no straightforwardway to do this:
-   - 1  Load the base model in FP16 precision. This step is necessary to ensure compatibility with the updates.
-   - 2  Use the peft library to integrate the fine-tuned weights with the base model effectively.
-   - 3  Before merging the weights, clear the VRAM to prevent any memory issues. After clearing, restart the initial setup by rerunning the first three cells of the notebook.
+   - 1:  Load the base model in FP16 precision. This step is necessary to ensure compatibility with the updates.
+   - 2:  Use the peft library to integrate the fine-tuned weights with the base model effectively.
+   - 3:  Before merging the weights, clear the VRAM to prevent any memory issues. After clearing, restart the initial setup by rerunning the first three cells of the notebook.
 
   This way one can store the fine-tuned model in huggingface.
 
