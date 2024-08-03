@@ -35,7 +35,7 @@ When you run the code, you will be asked to give the path of the PDF file. Pleas
 *Chance of error*:
 It is recommended to provide a 5-6 page PDF as input at a time. Processing a larger number of pages simultaneously can be very time-consuming and may heavily depend on the system's RAM capacity. Moreover, providing more pages can increase the risk of crashing the code. 
 
- - **src/Converting-dataset.ipynb** 
+  **src/Converting-dataset.ipynb** 
 
 
 
