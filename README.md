@@ -76,7 +76,7 @@ It is recommended to provide a 5-6 page PDF as input at a time. Processing a lar
 -**RAG.ipynb**:To run this code, you need to download the llama-2-7b-chat.Q4_K_M.gguf model from Hugging Face. This notebook takes pdf data as input. Provide the proper data path to load the pdf. 
 
 
-###### Results
+#### Results
 
 Results of fine-tuned model and base model.
 
