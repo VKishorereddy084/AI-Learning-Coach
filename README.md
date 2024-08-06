@@ -33,7 +33,7 @@ Due to the time constraints, we managed to develop an application only with supe
 When you run the code, you will be asked to give the path of the PDF file. Please provide the correct path to ensure the script functions properly. 
 
 *Chance of error*:
-It is recommended to provide a 5-6 page PDF as input at a time. Processing a larger number of pages simultaneously can be very time-consuming and may heavily depend on the system's RAM capacity. Moreover, providing more pages can increase the risk of crashing the code. 
+It is recommended to provide a 5-6 page PDF as input at a time. After that merge all the csv file into one. Processing a larger number of pages simultaneously can be very time-consuming and may heavily depend on the system's RAM capacity. Moreover, providing more pages can increase the risk of crashing the code. 
 
   **src/notebooks Folder**: This folder contains a series of Jupyter notebooks that are required for the developement of our AI learning coach application. Each notebook is designed for a specific part of the project workflow:
 
