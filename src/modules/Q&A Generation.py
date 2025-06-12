@@ -75,7 +75,11 @@ if file_path and os.path.isfile(file_path):
    
     question_gen_chain = load_summarize_chain(llm=llm_question_gen, chain_type="refine", verbose=True,
                                               question_prompt=PROMPT_QUESTIONS, refine_prompt=REFINE_PROMPT_QUESTIONS)
-    questions = question_gen_chain.run(docs_question_gen)
+  
+    full_text = "\n".join(chunk.page_content for chunk in docs_question_gen)
+
+    questions = question_gen_chain.run([Document(page_content=full_text)])
+
 
     
     llm_answer_gen = LlamaCpp(
